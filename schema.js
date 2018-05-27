@@ -14,7 +14,7 @@ const todos = [
 
 const TodoType = new graphql.GraphQLObjectType({
   name: 'todo',
-  fieleds: function () {
+  fields: function () {
     return {
       id: {
         type: graphql.GraphQLID
